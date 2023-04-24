@@ -104,13 +104,13 @@ driver.quit()
 
 
 #メイン関数
-#if name == 'main':
-# Chromeドライバーを起動する
-#driver = webdriver.Chrome(DRIVER_PATH)
+if name == 'main':
+ Chromeドライバーを起動する
+driver = webdriver.Chrome(DRIVER_PATH)
 
 
 # イベントバトルを行う
 #event_battle(driver, 'username', 'password')
 
 # ブラウザを閉じる
-#driver.quit()
+driver.quit()
